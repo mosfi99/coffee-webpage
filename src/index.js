@@ -1,5 +1,6 @@
 import './styles.css';
 import { renderHome } from './home.js';
+import { renderAbout } from './about.js';
 
 const content = document.querySelector('#content');
 
