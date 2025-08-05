@@ -1,21 +1,33 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="forest">
+<html lang="en" data-theme="forest" class="h-full">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Mosfi's Coffee</title>
 	</head>
-	<body>
-		<header class="flex justify-between items-center p-5 bg-neutral">
-			<h1 class="text-3xl">Mosfi's Coffee</h1>
-			<nav>
-				<ul class="flex gap-3">
-					<li><button class="btn btn-outline">Menu</button></li>
-					<li><button class="btn btn-outline">About</button></li>
-					<li><button class="btn btn-outline">Home</button></li>
-				</ul>
-			</nav>
+	<body class="h-full flex flex-col">
+		<header class="bg-neutral">
+			<div
+				class="container mx-auto flex flex-col gap-2 p-2 items-center sm:flex-row sm:justify-between sm:p-5">
+				<h1 class="text-2xl sm:text-3xl">Mosfi's Coffee</h1>
+				<nav>
+					<ul class="flex gap-3">
+						<li><button id="menu" class="btn btn-outline">Menu</button></li>
+						<li><button id="about" class="btn btn-outline">About</button></li>
+						<li><button id="home" class="btn btn-outline">Home</button></li>
+					</ul>
+				</nav>
+			</div>
 		</header>
-		<div id="content"></div>
+
+		<main class="flex-grow">
+			<div
+				id="content"
+				class="container mx-auto flex sm:items-center mt-10 justify-center h-full">
+
+				
+		</main>
+		<!-- TODO: ADD FOOTER WITH CONTACT DATA AND ADDRESS -->
+		<footer></footer>
 	</body>
 </html>
