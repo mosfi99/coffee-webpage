@@ -4,3 +4,7 @@
 @plugin "daisyui" {
 	themes: light --default, dark --prefersdark, forest;
 }
+
+@theme {
+	--breakpoint-xs: 23.43rem; /* ~375px  */
+}
