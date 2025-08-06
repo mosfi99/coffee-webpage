@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="forest" class="h-full">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Mosfi’s Coffee</title>
+	<script defer src="main.js"></script></head>
+	<body class="h-full flex flex-col">
+		<header class="bg-neutral">
+			<div
+				class="lg:container mx-auto p-3 flex flex-col xs:flex-row items-center justify-between gap-2">
+				<h1 class="text-2xl sm:text-3xl">Mosfi's Coffee</h1>
+				<nav>
+					<ul class="flex gap-3">
+						<li><button id="menu" class="btn btn-outline">Menu</button></li>
+						<li><button id="about" class="btn btn-outline">About</button></li>
+						<li><button id="home" class="btn btn-outline">Home</button></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main class="flex-grow">
+			<div
+				id="content"
+				class="lg:container mx-auto p-3 flex flex-col items-center justify-center h-full"></div>
+		</main>
+
+		<footer class="bg-neutral text-neutral-content">
+			<div
+				class="lg:container mx-auto p-3 flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2">
+				<ul class="text-xs text-neutral-content/90">
+					<li>123 Brew Street, Beanville, 45678</li>
+					<li>Open: Mon–Sun · 8:00–18:00</li>
+					<li>Phone: +01 234 567 890</li>
+				</ul>
+
+				<ul
+					class="text-xs text-neutral-content/60 border-t border-neutral-content/20 pt-2 sm:border-none sm:pt-0">
+					<li class="sm:pb-1">
+						Developed by
+						<a
+							href="https://github.com/mosfi99"
+							target="_blank"
+							class="text-accent hover:underline">
+							@mosfi99
+						</a>
+					</li>
+					<li class="sm:border-t sm:pt-1">
+						© 2025 Mosfi's Coffee. All rights reserved.
+					</li>
+				</ul>
+			</div>
+		</footer>
+	</body>
+</html>
