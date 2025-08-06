@@ -91,7 +91,7 @@ const menuData = [
 
 export function renderMenu() {
 	const container = document.createElement('div');
-	container.classList = 'flex flex-col items-center';
+	container.classList = 'flex flex-col items-center mb-5';
 
 	menuData.forEach((section) => {
 		// section titles
