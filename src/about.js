@@ -30,18 +30,3 @@ export function renderAbout() {
 
 	return container;
 }
-
-/*
-	<div id="container__about" class="home max-w-lg space-y-5 p-5">
-					<h1 class="text-4xl sm:text-5xl font-bold">
-					
-					</h1>
-					<p class="italic">Proudly brewed since 2015</p>
-					<p>
-						
-					</p>
-					<p>
-						
-					</p>
-				</div>
-*/
