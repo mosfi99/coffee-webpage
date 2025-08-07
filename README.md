@@ -21,7 +21,7 @@ This project helped practice:
 
 ![Gif_demo](./src/img/demo.gif)
 
-![Live demo](https://mosfi99.github.io/coffee-webpage/)
+[Live demo](https://mosfi99.github.io/coffee-webpage/)
 
 ## Future implementations:
 
